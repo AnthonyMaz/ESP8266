@@ -17,11 +17,15 @@ esptool.py --port /dev/ttyUSB0 erase_flash
 esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size=detect 0 /locationwerethefileislocated/esp8266-20170108-v1.8.7.bin
 ````
 After the firmware is updated, you can connect to the device as seen below.
+
 ![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/connection.png)
+
 After connecting to the device, the network should be setup as seen to the below. 
 ![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/netwkcfg.png)
+
 Once it’s seen that the interfaces are active, one can scan for Wifi networks as seen below.
 ![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/wifiscan.png)
+
 After seeing your network, put in the information below. This can also be found at https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html
 ```bash
 >>> sta_if.connect('<your ESSID>', '<your password>')
