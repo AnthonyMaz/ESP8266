@@ -11,8 +11,8 @@ webrepl.start()
 gc.collect()
 
 #Network
-#ssid = "MySpectrumWiFi5b-2G"
-#password = "jacketreview734"
+#ssid = "SSID"
+#password = "password"
 
 #Network Module for Wifi Connection
 sta_if = network.WLAN(network.STA_IF)
