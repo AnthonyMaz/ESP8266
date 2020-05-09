@@ -18,7 +18,7 @@ gc.collect()
 sta_if = network.WLAN(network.STA_IF)
 #sta_if = network.WLAN(network.AP_IF)
 sta_if.active(True)
-sta_if.connect('MySpectrumWiFi5b-2G', 'jacketreview734')
+sta_if.connect('SSID', 'password')
 while sta_if.isconnected() == False:
     pass
 print("Connection Succesful")
