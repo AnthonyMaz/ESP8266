@@ -20,13 +20,13 @@ esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size=detect 0 /
 ````
 After the firmware is updated, you can connect to the device as seen below.
 
-![alt text](https://raw.githubusercontent.com/AnthonyMaz/NodeMCU/master/images/connection.png)
+![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/connection.png)
 
 After connecting to the device, the network should be setup as seen to the below. 
-![alt text](https://raw.githubusercontent.com/AnthonyMaz/NodeMCU/master/images/netwkcfg.png)
+![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/netwkcfg.png)
 
 Once it’s seen that the interfaces are active, one can scan for Wifi networks as seen below.
-![alt text](https://raw.githubusercontent.com/AnthonyMaz/NodeMCU/master/images/wifiscan.png)
+![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/wifiscan.png)
 
 After seeing your network, put in the information below. This can also be found at https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html
 ```bash
@@ -64,12 +64,12 @@ NodeMCU depending on the purpose of the project on the board. This project is in
 ```
 #### Boot.py Configuration:
 This script is intended for automatic network configurations, and any needed python libraries to load from boot for other scripts. As seen below, this is the boot configuration I have used. 
-![alt text](https://raw.githubusercontent.com/AnthonyMaz/NodeMCU/master/images/bootpy.png)
+![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/bootpy.png)
 #### Main.py Configuration:
 This script is intended for parts of your python program projects that are running on your board.
 For this project, I have included a web server configuration in the Main.py, which can be seen below.
-![alt text](https://raw.githubusercontent.com/AnthonyMaz/NodeMCU/master/images/mainpy0.png)
-![alt text](https://raw.githubusercontent.com/AnthonyMaz/NodeMCU/master/images/mainpy1.png)
+![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/mainpy0.png)
+![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/mainpy1.png)
 #### Web Server:
 Below is a screenshot of the ESP8266 Web Server after configuring the boot.py and main.py files.
-![alt text](https://raw.githubusercontent.com/AnthonyMaz/NodeMCU/master/images/webserver.png)
+![alt text](https://raw.githubusercontent.com/AnthonyMaz/ESP8266/master/images/webserver.png)
